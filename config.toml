@@ -780,6 +780,7 @@ enableEmoji = true
   # CSS 和 JS 文件的 CDN 设置
   [params.cdn]
     # fontawesome-free@5.12.1 https://fontawesome.com/
+<<<<<<< HEAD
     fontawesomeFreeCSS = 'https://cdn.bootcdn.net/ajax/libs/font-awesome/5.12.1/css/all.min.css'
     # animate.css@3.7.2 https://github.com/daneden/animate.css
     animateCSS = 'https://cdn.jsdelivr.net/gh/animate-css/animate.css@3.7.2/animate.min.css'
@@ -803,6 +804,31 @@ enableEmoji = true
     katexCopyTexCSS = 'ttps://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/copy-tex.css'
     katexCopyTexJS = 'https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/copy-tex.min.js'
     katexMhchemJS = 'https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/mhchem.min.js'
+=======
+    fontawesomeFreeCSS = ''
+    # animate.css@3.7.2 https://github.com/daneden/animate.css
+    animateCSS = ''
+    # smooth-scroll@16.1.2 https://github.com/cferdinandi/smooth-scroll
+    smoothScrollJS = ''
+    # sharer@0.4.0 https://github.com/ellisonleao/sharer.js
+    sharerJS = ''
+    # lazysizes@5.2.0 https://github.com/aFarkas/lazysizes
+    lazysizesJS = ''
+    # lightgallery@1.1.3 lg-thumbnail@1.1.0 lg-zoom@1.1.0 https://github.com/sachinchoolur/lightgallery.js
+    lightgalleryCSS = ''
+    lightgalleryJS = ''
+    lightgalleryThumbnailJS = ''
+    lightgalleryZoomJS = ''
+    # typeit@6.5.1 https://github.com/alexmacarthur/typeit
+    typeitJS = ''
+    # katex@0.11.1 https://github.com/KaTeX/KaTeX
+    katexCSS = ''
+    katexJS = ''
+    katexAutoRenderJS = ''
+    katexCopyTexCSS = ''
+    katexCopyTexJS = ''
+    katexMhchemJS = ''
+>>>>>>> 0b6e529d9c26d0c5c6b0706dac1c2d0851f3b1c3
     # mermaid@8.4.8 https://github.com/knsv/mermaid
     mermaidJS = ''
     # aplayer@1.10.1 https://github.com/MoePlayer/APlayer
@@ -817,7 +843,11 @@ enableEmoji = true
     gitalkCSS = ''
     gitalkJS = ''
     # valine@1.3.10 https://valine.js.org/
+<<<<<<< HEAD
     valineJS = 'https://unpkg.com/valine@1.3.10/dist/Valine.min.js'
+=======
+    valineJS = ''
+>>>>>>> 0b6e529d9c26d0c5c6b0706dac1c2d0851f3b1c3
 
 # Markup related configuration in Hugo
 # Hugo 解析文档的配置
